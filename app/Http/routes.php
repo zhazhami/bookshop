@@ -14,5 +14,5 @@ use App\Entity\Member;
 
 Route::get('/', function () {
     //return view('welcome');
-    return Member::all();
+    return view('login');
 });
